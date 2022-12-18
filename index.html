@@ -3,14 +3,18 @@
 <head>
  <meta charset="UTF-8">
  <meta name="author" content="ltp">
- <title>鱼C-零基础入门学习Web（Html5+Css3）</title>
- <link rel="icon" type="image/x-icon" href="./img/icotest.ico">
+ <title>大鹏网站搭建学习</title>
+ <link rel="icon" type="image/x-icon" href="./img/icotest.png">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link type="text/css"  rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1>学习web开发，与更多的人发生连接</h1>
-<p> 你好！ zxy</p>
+   <p> 你好！ <span id="name"></p>
+     <script type="text/javascript">
+         var user_input = prompt("你的名字是：");
+         document.getElementById("name").innerHTML = user_input;
+      </script>
 <p> 今天过得怎么样呀？</p>
 <p> ---来自大鹏的问候</p>
 </body>
